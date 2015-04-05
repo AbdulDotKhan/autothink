@@ -28,8 +28,8 @@ class MuseServer(ServerThread):
         a =1
 
 try:
-    user = "spikeleephd@gmail.com" #str(raw_input("Username: "))
-    password = "hackwestern1" #str(raw_input("Password: "))
+    user = "XXXXXXXX" #str(raw_input("Username: "))
+    password = "XXXXXXXX" #str(raw_input("Password: "))
     #password = str(getpass.getpass())
     server = MuseServer(user, password)
 except ServerError, err:

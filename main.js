@@ -55,7 +55,7 @@ app.post('/login', function (req, res) {
     var request = require("request");
     request({
         url: "https://portal.vn.teslamotors.com/login",
-        body: "user_session%5Bemail%5D=spikeleephd@gmail.com\u0026user_session%5Bpassword%5D=hackwestern1",
+        body: "user_session%5Bemail%5D=XXXXXXXX\u0026user_session%5Bpassword%5D=XXXXXXXX",
         headers: {
             "Content-Type": "application/x-www-form-urlencoded" //, "Cookies": "user_credentials:" + user_cred
         },
